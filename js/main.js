@@ -60,6 +60,7 @@ console.log(d.getDay());
 console.log(d.getHours());
 console.log(d.getMinutes());
 */
+/*
 function soma(n1,n2){
     return n1 + n2;
 }
@@ -80,6 +81,8 @@ var idade = prompt("Qual sua Idade ?");
 console.log(validaIdade(idade))
 console.log(validar)
 
+*/
+
 /*
 function setReplace(frase, nome, novo_nome){
     return frase.replace(nome, novo_nome);
@@ -87,3 +90,30 @@ function setReplace(frase, nome, novo_nome){
 
 console.log(setReplace("Vai Japão", "Japão","Brasil"));
 */
+function clicado(){
+    //alert("Obrigado por clicar");
+    document.getElementById("agradecimento").innerHTML = "<strong>Obrigado por clicar ! </strong>";
+    //console.log(h3);
+}
+function redirecionar(){
+    //window.open("https://www.coursera.org/");
+    window.location.href = "https://www.coursera.org/";
+}
+
+function mouse_Over(elemento){
+    console.log("trocar Texto");
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function mouse_Out(elemento){
+    console.log("passou o mouse fora");
+    elemento.innerHTML = "passe o mouse";
+}
+
+function load(){
+    console.log("body caregado com sucessor");
+}
+
+function change(elemento){
+    console.log(elemento.value);
+}
